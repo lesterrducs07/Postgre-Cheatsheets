@@ -1,0 +1,16 @@
+SELECT * FROM table_name;
+SELECT AVG(*) table_name;
+SELECT COUNT(*) table_name;
+
+SELECT * FROM apple_product
+where ram = '4 GB'
+and star_rating > 4.0
+and mrp < 50000;
+
+#DATA TYPES
+
+
+
+
+#SQL FUNCTIONS
+

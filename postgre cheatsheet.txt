@@ -24,3 +24,5 @@ IN match one set of values
 LIKE match a pattern(case sensitive)
 ILIKE matches a pattern(case insensitive)
 NOT negates a condition
+
+#ALTER QUERY

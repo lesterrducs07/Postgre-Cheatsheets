@@ -14,3 +14,13 @@ and mrp < 50000;
 
 #SQL FUNCTIONS
 
+#OPERATORS
+= equals
+<> less than or greater than
+!= not equal
+<= >= less than equal or greater than equal
+BETWEEN within range
+IN match one set of values
+LIKE match a pattern(case sensitive)
+ILIKE matches a pattern(case insensitive)
+NOT negates a condition

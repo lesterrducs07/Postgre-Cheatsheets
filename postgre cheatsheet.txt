@@ -26,3 +26,65 @@ ILIKE matches a pattern(case insensitive)
 NOT negates a condition
 
 #ALTER QUERY
+
+
+
+
+
+
+
+
+---------------------TO CREATE A TABLE
+CREATE TABLE table_name(
+  column_name #DATATYPE
+);
+
+---------------------TO INSERT ROW OR VALUE IN THE TABLE
+INSERT INTO table_name(column_name, column_name2, etc)
+VALUES (value1, value2, etc.);
+
+---------------------TO PRINT IN THE QUERY
+SELECT column_name, column_name, etc
+FROM table_name;
+
+SELECT * FROM table_name;
+
+SELECT
+c.customer_id,
+c.customer_name,
+p.customer_id,
+p.product,
+p.price
+FROM customers as c
+INNER JOIN product as p 
+ON c.customer_id = p.customer_id;
+
+SELECT * FROM customers;
+SELECT * FROM product;
+
+ALTER TABLE product
+ADD discount_id INT;
+
+ALTER TABLE product
+ADD discount_id SERIAL PRIMARY KEY;
+
+ALTER TABLE product         --TO CHANGE TABLE
+PRIMARY KEY (discount_id);
+
+ALTER TABLE product
+DROP COLUMN discount_id;    --TO DROP TABLE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

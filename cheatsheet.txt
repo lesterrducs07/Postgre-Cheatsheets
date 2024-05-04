@@ -30,3 +30,12 @@ FROM table_name
 GROUP BY column_name1
 HAVING SUM(column_name2) > 200;
 
+#ANALYTICAL FUNCTION
+`RANK()` assigns a rank to each row within a result set, with ties receiving the same rank and leaving gaps. 
+
+`DENSE_RANK()` is similar to `RANK()`, but does not leave gaps between rank values, and so may have ties with the same value. 
+
+`ROW_NUMBER()` assigns a unique number to each row within a result set. 
+
+`LAG()` provides access to a row at a given physical offset prior to the current row within a result set.
+

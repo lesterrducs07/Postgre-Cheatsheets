@@ -39,3 +39,8 @@ HAVING SUM(column_name2) > 200;
 
 `LAG()` provides access to a row at a given physical offset prior to the current row within a result set.
 
+#CASTING
+::int ::numeric ::text ::timestamp
+::boolean ::date ::time ::json ::float8
+
+

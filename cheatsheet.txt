@@ -61,3 +61,16 @@ UPDATE employees
 SET salary = 60000
 WHERE name = 'John Doe';
 
+#JOIN STATEMENTS
+INNER JOIN it returns only the rows that have matching values in both tables.
+
+LEFT JOIN returns all rows from the left table and matching rows from the right table. 
+If there are no matching rows in the right table, the result will contain NULL values
+
+RIGHT JOIN returns all rows from the right table and matching rows from the left table.
+If there are no matching rows in the left table, the result will contain NULL values for the left table columns.
+
+FULL OUTER JOIN returns all rows from both tables. If there are no matching rows in one of the tables, the result
+will contain NULL values for the columns of the table that has no matching rows.
+
+

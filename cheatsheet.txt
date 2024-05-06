@@ -43,4 +43,21 @@ HAVING SUM(column_name2) > 200;
 ::int ::numeric ::text ::timestamp
 ::boolean ::date ::time ::json ::float8
 
+-- syntax
+DELETE FROM table_name
+WHERE condition;
+
+-- example of delete
+DELETE FROM employees
+WHERE name = 'John Doe';
+
+-- syntax updating table
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+-- example updating table
+UPDATE employees
+SET salary = 60000
+WHERE name = 'John Doe';
 

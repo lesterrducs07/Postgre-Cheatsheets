@@ -73,4 +73,10 @@ If there are no matching rows in the left table, the result will contain NULL va
 FULL OUTER JOIN returns all rows from both tables. If there are no matching rows in one of the tables, the result
 will contain NULL values for the columns of the table that has no matching rows.
 
-
+The typical order of clauses in a SELECT statement is:
+    SELECT
+    FROM
+    WHERE
+    GROUP BY
+    HAVING
+    ORDER BY
